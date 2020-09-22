@@ -3,8 +3,9 @@
    FROM node:10
 
    # Create and change to the app directory.
-   WORKDIR /usr/src/app
-
+   #WORKDIR /usr/src/app
+   WORKDIR /home/gulfam_mureed/dialogflow-integrations/spark/
+   
    # Set this environmental variable to the integration you want to use
    ENV INTEGRATION=spark
 
