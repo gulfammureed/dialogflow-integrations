@@ -31,9 +31,9 @@ app.use(express.json());
 //Upon closure the webhook is removed from spark
 
 //Insert your values here
-const sparkAccessToken ="MGQwZTEwYmMtN2JhZC00ZDdmLWIyYjQtZGUxODI3OGQ1M2QwZDQ0ODcxMjAtY2Vh_PF84_0d882151-70b4-4264-a09c-4a599e4494b1";
+const sparkAccessToken ="YmM0OTgzYjktMzI2MC00Zjc5LWJjNmYtZTIyMDUxNzRmZjMwYmI1ZmZmYzItZDQy_PF84_0d882151-70b4-4264-a09c-4a599e4494b1";
 const targetUrl = 'Place you servers URL here';
-const projectId = 'flash-adapter-289912';
+const projectId = 'agent1-jwcv';
 
 const sessionClient = new dialogflowSessionClient(projectId);
 
