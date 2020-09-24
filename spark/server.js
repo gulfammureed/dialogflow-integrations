@@ -31,9 +31,9 @@ app.use(express.json());
 //Upon closure the webhook is removed from spark
 
 //Insert your values here
-const sparkAccessToken ="YTI1NTk2MjItMmExYS00ZDY2LWEyYTQtYzJkMGQ5MzBmNjJiOGZmNTYzMmItNGI0_PF84_0d882151-70b4-4264-a09c-4a599e4494b1";
-const targetUrl = 'https://alpha-tk572wdmfq-uc.a.run.app/';
-const projectId = 'agent-befb';
+const sparkAccessToken ="YmNlOGQ3OGQtMjE3ZS00MTE4LWFmNDUtZWM3ZjVkYzViYWUxYjNhMGQ3NTUtMGFi_PF84_0d882151-70b4-4264-a09c-4a599e4494b1";
+const targetUrl = '';
+const projectId = 'gulfam-usll';
 
 const sessionClient = new dialogflowSessionClient(projectId);
 
